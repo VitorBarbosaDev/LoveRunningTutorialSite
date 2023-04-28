@@ -116,18 +116,46 @@ from{
     padding-top:30px;
     width: 33%;
     float:left;
-    background-color: blue;
 }
 
 #right-about{
     padding-top:30px;
     width: 33%;
     float:right;
-    background-color: red;
 }
 
 #center-about{
     margin:0 auto;
     width: 33%;
     background-color: green;
+}
+.left-about-heading{
+    float:right;
+}
+.right-about-heading{
+    float:left;
+}
+.right-about-heading h2{
+    text-align: right;
+}
+.right-about-heading p{
+    text-align: right;
+}
+
+.left-about-heading h2{
+    text-align: left;
+}
+.left-about-heading p{
+    text-align: left;
+}
+.ethos-headings{
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
 }
